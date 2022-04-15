@@ -129,34 +129,35 @@
             <h2>Faça um agendamento</h2>
             <img src="images/heading-ic-white.png" alt="Faca um agendamento">
 
-            <form>
+            <form action="https://formsubmit.co/jrwalter731@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
                 <div class="personal-data">
                     <div class="input-wrapper">
                         <label>Nome</label>
-                        <input type="text" placeholder="Digite o seu Nome">
+                        <input type="text" name="name" placeholder="Digite o seu Nome">
                     </div>
 
                     <div class="input-wrapper">
                         <label>Email</label>
-                        <input type="email" placeholder="Digite o seu Email">
+                        <input type="email" name="email" placeholder="Digite o seu Email">
                     </div>
 
                     <div class="input-wrapper">
                         <label>Telefone</label>
-                        <input type="nome" placeholder="Digite o seu Telefone">
+                        <input type="nome" name="phone" placeholder="Digite o seu Telefone">
                     </div>
 
                     <div class="input-wrapper">
                         <label>Tipo de Serviço</label>
                         <select>
-                            <option value="">Cortar Cabelo</option>
-                            <option value="">Cortar cabelo/barba</option>
+                            <option name="cabelo" value="">Cortar Cabelo</option>
+                            <option name="cabelo/barba" value="">Cortar cabelo/barba</option>
                         </select>
                     </div>
                 </div> 
                 <div class="input-wrapper"></div>
                 <label>Mensagem</label>
-                <textarea></textarea>
+                <textarea name="message" rows="10"></textarea>
                 <button>Enviar</button> 
             </div>
                  

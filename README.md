@@ -30,3 +30,11 @@ Use um Live server
 
 http://barber-shop-fawn.vercel.app/
 ## Imagens 
+
+<img align="left" alt="primeira" height="200" src="./imagesReadMe/primeira.png">
+<img align="right" alt="primeira" height="200" src="./imagesReadMe/segunda.png">
+
+</br>
+
+<img align="left" alt="primeira" height="200" src="./imagesReadMe/terceira.png">
+<img align="right" alt="primeira" height="200" src="./imagesReadMe/quarta.png">

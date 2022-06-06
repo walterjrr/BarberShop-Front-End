@@ -1,0 +1,57 @@
+/**************
+*   LOCATION
+***************/
+
+.location{
+
+  padding: 10rem 0;
+  background: url(../images/bg-location.jpg);
+  background-size: cover;
+}
+
+.location .head{
+  display: flex;
+  justify-content: space-between;
+  background-color: #191919;
+  padding: 4rem;
+  width: 100%;
+}
+
+.location .head .info{
+  display: flex;
+  align-items: center;
+}
+
+.location .head .info .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  border: 1px solid var(--color-primary);
+  padding: 1.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+}
+
+.location .head .info .text span{
+  display: block;
+  font-size: 1.3rem;
+}
+
+.location .head .info .text:first-child{
+  color:silver;
+}
+
+.location .head .info .text:last-child{
+  color: white;
+}
+
+.location .map{
+  width: 100%;
+}
+
+.location .map iframe{
+  width: 100%;
+}
+

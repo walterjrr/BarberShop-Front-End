@@ -1,0 +1,37 @@
+.gallery{
+  padding: 10rem 0;
+  background-color: var(--color-primary-light);
+}
+
+.gallery h2{
+  color: var(--color-secondary);
+  font-weight:400;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.gallery img{
+  margin: 0 auto;
+  display: block;
+}
+
+.gallery .gallery-wrapper{
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  width: 61rem;
+  height: 100vh;
+  flex-wrap: wrap;
+
+}
+
+.gallery .gallery-wrapper div{
+  border: 0.7rem solid var(--color-primary);
+  margin: 0.6rem;
+  width: 33%;
+}
+
+.gallery .gallery-wrapper div img{
+  width: 100%;
+}

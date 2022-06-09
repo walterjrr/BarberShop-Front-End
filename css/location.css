@@ -53,18 +53,24 @@
 }
 
 @media screen and (max-width: 450px) {
-  .location {
-    width: 45rem;
-  }
+
   .location .head{
     display: block;
     padding: 4rem;
-    width: 45rem;
+    width: 42.8rem;
   }
 
   .location .head .info{
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
+  }
+
+  .location .map{
+    width: 42.8rem;
+  }
+  
+  .location .map iframe{
+    width: 42.8rem;
   }
 }

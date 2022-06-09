@@ -35,3 +35,18 @@
 .gallery .gallery-wrapper div img{
   width: 100%;
 }
+
+@media screen and (max-width: 450px) {
+  .gallery{
+    margin: auto 0;
+    padding: 5rem 0;
+    background-color: var(--color-primary-light);
+  }
+  
+  .gallery h2{
+    width: 35rem;
+    margin: auto 0;
+    font-size: 4rem;
+    margin: 3rem;
+  }
+}

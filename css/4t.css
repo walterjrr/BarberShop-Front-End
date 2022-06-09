@@ -69,3 +69,32 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
+@media screen and (max-width: 450px) {
+  .appointment h2{
+    width: 35rem;
+    margin: auto 0;
+    margin: 3rem;
+  }
+
+  .appointment .personal-data{
+    display: block;
+    margin: 1rem;
+    width: 40rem;
+  }
+
+  .appointment .textarea{
+    width: 40rem;
+    margin: 1rem;
+  }
+  .appointment button{
+    margin: 1rem;
+  }
+  .bigode2 {
+    display: none;
+    width: 10rem;
+    margin: auto 0;
+    font-size: 4rem;
+    margin: 3rem;
+  }
+}

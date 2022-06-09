@@ -1,6 +1,3 @@
-/**************
-*   LOCATION
-***************/
 
 .location{
 
@@ -55,3 +52,19 @@
   width: 100%;
 }
 
+@media screen and (max-width: 450px) {
+  .location {
+    width: 45rem;
+  }
+  .location .head{
+    display: block;
+    padding: 4rem;
+    width: 45rem;
+  }
+
+  .location .head .info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+}

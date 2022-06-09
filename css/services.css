@@ -45,7 +45,9 @@
     margin: 3rem;
   }
 
-  .services .bigode2{
+  .bigode2{
+    /**/
+    display: none;
     width: 10rem;
     margin: auto 0;
     font-size: 4rem;

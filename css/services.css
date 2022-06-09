@@ -36,3 +36,30 @@
   font-size: 1.4rem;
   line-height: 2.5rem;
 }
+
+@media screen and (max-width: 450px) {
+  .services h2{
+    width: 35rem;
+    margin: auto 0;
+    font-size: 4rem;
+    margin: 3rem;
+  }
+
+  .services .bigode2{
+    width: 10rem;
+    margin: auto 0;
+    font-size: 4rem;
+    margin: 3rem;
+  }
+
+  .services .boxes{
+    display: block;
+  }
+
+  .services .box{
+    border: 3px solid var(--color-primary);
+    width: 35rem;
+    padding: 2rem 2rem;
+    margin: 3rem;
+  }
+}

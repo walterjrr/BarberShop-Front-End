@@ -105,7 +105,6 @@
   .about .experience{
     display: flex;
     flex-direction: column;
-    margin-top: 10rem;
     margin-left: 2%;
   }
 

@@ -38,15 +38,41 @@
 
 @media screen and (max-width: 450px) {
   .gallery{
-    margin: auto 0;
-    padding: 5rem 0;
+    padding: 4rem 0;
     background-color: var(--color-primary-light);
   }
-  
   .gallery h2{
     width: 35rem;
     margin: auto 0;
     font-size: 4rem;
     margin: 3rem;
+    margin-top: 0;
+  }
+
+  .gallery .bigode2 {
+    margin: auto 15rem;
+    margin-bottom: 3rem;
+  }
+
+  .gallery img{
+    display: block;
+  }
+
+  .gallery .gallery-wrapper{
+    margin: auto 0;
+    width: 46rem;
+    height: 100vh;
+    flex-wrap: wrap;
+  
+  }
+  
+  .gallery .gallery-wrapper div{
+    border: 0.7rem solid var(--color-primary);
+    margin: 0.6rem;
+    width: 41%;
+  }
+  
+  .gallery .gallery-wrapper div img{
+    width: 100%;
   }
 }

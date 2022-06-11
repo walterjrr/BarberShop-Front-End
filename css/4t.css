@@ -90,11 +90,11 @@
   .appointment button{
     margin: 1rem;
   }
-  .bigode2 {
-    display: none;
+  .appointment img{
     width: 10rem;
     margin: auto 0;
     font-size: 4rem;
     margin: 3rem;
+    margin-left: 15rem;
   }
 }

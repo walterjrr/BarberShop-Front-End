@@ -8,6 +8,7 @@ html{
     scroll-behavior: smooth; 
     /*1rem = 10px*/
     font-size: 62.5%;
+    overflow-x: auto;
 } 
 
 *{
@@ -112,6 +113,14 @@ body{
 
 
 @media screen and (max-width: 450px) {
+    .home{
+        position: relative;
+        background-size: auto;
+        background-image: url(../images/bg-home.jpg);
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
     .home .header .nav ul li a{
         display: none;
     }

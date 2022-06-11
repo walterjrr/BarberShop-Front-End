@@ -45,13 +45,11 @@
     margin: 3rem;
   }
 
-  .bigode2{
-    /**/
-    display: none;
+  .services .bigode2{
     width: 10rem;
-    margin: auto 0;
     font-size: 4rem;
     margin: 3rem;
+    margin-right: 60rem;
   }
 
   .services .boxes{

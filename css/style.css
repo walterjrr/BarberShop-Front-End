@@ -8,7 +8,6 @@ html{
     scroll-behavior: smooth; 
     /*1rem = 10px*/
     font-size: 62.5%;
-    overflow-x: auto;
 } 
 
 *{
@@ -18,6 +17,7 @@ html{
 }
 
 body{
+    overflow-x: unset;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -113,6 +113,9 @@ body{
 
 
 @media screen and (max-width: 450px) {
+    .container{
+        margin: 0 auto;
+    }
     .home{
         position: relative;
         background-size: auto;
